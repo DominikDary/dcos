@@ -1,14 +1,14 @@
 {
   "variants": {
     "adminrouter": "windows",
-    "dcos-metrics": "windows",
     "erlang": "windows",
     "dcos-diagnostics": "windows",
     "erts": "windows",
     "mesos": "windows",
     "openstackservice": "windows",
     "python": "windows",
-    "spartan": "windows"
+    "spartan": "windows",
+    "telegraf": "windows"
   },
   "exclude": [
     "avro-cpp",
@@ -86,8 +86,6 @@
     "six",
     "strace",
     "teamcity-messages",
-    "telegraf",
     "toybox"
   ]
 }
-
